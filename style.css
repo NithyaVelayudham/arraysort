@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+:root{
+    --primary-color:#2e2bd3;
+    --secondary-color:#2ab3d3;
+    --third-color:#b1d32b;
+    --sub-heading-font:24px;
+    --main-font-size:16px;
+    --main-font-family:'Roboto condensed,serief,san-serief';
+    --second-font-family:'Nunito', sans-serif;
+}
+/*--body--*/
+body{
+   background-color: rgb(185, 185, 204);
+    font-family: 'Roboto', sans-serif;
+    
+   }
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700!important;
+}
+h1{
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top:50px;
+    text-decoration:2px solid underline #000;
+    color: #2e2bd3;
+}
+h2{
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top:20px;
+    text-decoration:2px solid underline #000;
+    color:#ffffff;
+}
+
+.label{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+.form-control{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    max-width: 100%;
+    background-color: #ffff;
+    border-color: #ffff;
+    border-style: outset;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+     font-size: 16px;
+     margin-left: 20%;
+     font-style: italic;
+     font-family: 'Roboto', sans-serif;
+     text-align:justify;
+   
+ }
+ .out{
+     font-family: 'Roboto', sans-serif;
+     font-size: 16px;
+   
+ }
+ 
+ .dropdown-menu{
+    min-height: 100%;
+   margin-bottom: -350px;
+
+ }
+ @media screen and (max-width:576px){
+    .dropdown{
+     min-width: 100%;
+     text-align:center;
+     } 
+  
+ }
+
+ 
